@@ -45,18 +45,18 @@ director3 = Director("Gerwig", "Greta", 1983)
 client1 = Clients("Toto", "Tatou", [])
 
 # Display movies infos
-# movie1.display_movie_info()
-# movie2.display_movie_info()
-# movie3.display_movie_info()
+movie1.display_movie_info()
+movie2.display_movie_info()
+movie3.display_movie_info()
 
 # Display age of the directors
 
-# print(f"Maïwenn est agée de {director2.age()} ans.")
-# print(f"Greta Gerwig est agée de {director3.age()} ans.")
+print(f"Maïwenn est agée de {director2.age()} ans.")
+print(f"Greta Gerwig est agée de {director3.age()} ans.")
 
 # Add a film to the client's list
 client1.add_movie(movie1)
-client1.add_movie(movie1)
+client1.add_movie(movie2)
 
 for movie in client1.movie_list: 
     print(movie.title)
